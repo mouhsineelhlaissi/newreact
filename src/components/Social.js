@@ -1,8 +1,10 @@
 import React from 'react'
 
+import socialItem from './socialItem'
+
 import App from './App'
 
-import socialItem from './socialItem'
+
 
 function Social(){
     return(

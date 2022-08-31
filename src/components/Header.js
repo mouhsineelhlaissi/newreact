@@ -6,7 +6,7 @@ function Header(){
     let title="";
     const client="design";
     if(client==="design"){
-        title="design is my life"
+        title="desiign is my life"
     }else{
         title="programming is my life"
     }
