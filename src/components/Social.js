@@ -2,21 +2,16 @@ import React from 'react'
 
 import App from './App'
 
+import socialItem from './socialItem'
+
 function Social(){
     return(
       
         <ul className="list-group">
-            <li className=" list-group-item" ><input type="checkbox" id="facebook"  />
-                 <label for="facebook">facebook</label>
-            </li>
+           <socialItem media='facebook'/>
+           <socialItem media='instagram'/>
+           <socialItem media='youtube'/>
 
-            <li className="list-group-item"><input type="checkbox" id="twitter" />
-                 <label for="twitter">twitter</label>
-            </li>
-
-            <li className="list-group-item"><input type="checkbox" id="youtube"  />
-                  <label for="youtube">youtube</label>  
-             </li> 
 <br/>
            <label> <input type="submit" value="submit"/></label>
            
